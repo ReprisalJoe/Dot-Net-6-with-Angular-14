@@ -8,6 +8,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatSortModule,
     MatInputModule,
     MatSelectModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCardModule
 
   ],
   exports: [
@@ -31,7 +33,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatSortModule,
     MatInputModule,
     MatSelectModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCardModule
 
   ]
 })

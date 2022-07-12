@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
+import { MaterialComponent } from './material/material.component';
+import { FontAwesomeComponent } from './font-awesome/font-awesome.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    BootstrapComponent,
+    MaterialComponent,
+    FontAwesomeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
