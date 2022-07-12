@@ -26,10 +26,6 @@ namespace Dot_Net_Core_6_With_Angular_14
             app.UseStaticFiles();
             app.UseRouting();
 
-
-
-            app.MapControllers();
-
             app.MapFallbackToFile("index.html");
 
             app.MapControllers();
