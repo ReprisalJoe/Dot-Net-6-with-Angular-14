@@ -15,6 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { MaterialComponent } from './material/material.component';
 import { FontAwesomeComponent } from './font-awesome/font-awesome.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FontAwesomeComponent } from './font-awesome/font-awesome.component';
     FormsModule,
     FontAwesomeModule,
     AngularMaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
